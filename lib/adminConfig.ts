@@ -5,7 +5,7 @@ export const ADMIN_CONFIG = {
   username: 'hanit',
   password: 'Hanit123!', // In production, this should be hashed
   id: 'admin-1',
-  name: 'חנית קורן',
+  name: 'חניט קורן',
 };
 
 // Simple session secret (in production, use a strong random secret from env)

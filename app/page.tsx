@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { HomeContent } from '@/components/home/HomeContent';
 
 export const metadata: Metadata = {
-  title: 'חנית קורן - יועצת קריירה',
+  title: 'חניט קורן - יועצת קריירה',
   description: 'יועצת קריירה מקצועית עם 15+ שנות ניסיון בגיוס ומשאבי אנוש. ליוויתי כבר מעל 1,000 מחפשי עבודה לעבר משרת החלומות! סיוע בחיפוש עבודה, כתיבת קורות חיים, הכנה לראיונות ופיתוח קריירה.',
 };
 
@@ -19,7 +19,7 @@ export default function Home() {
   const schemaOrg = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'חנית קורן - יועצת קריירה',
+    name: 'חניט קורן - יועצת קריירה',
     description: 'יועצת קריירה מקצועית עם 15+ שנות ניסיון בגיוס ומשאבי אנוש. ליוויתי כבר מעל 1,000 מחפשי עבודה לעבר משרת החלומות! סיוע בחיפוש עבודה, כתיבת קורות חיים, הכנה לראיונות ופיתוח קריירה.',
     url: baseUrl,
     serviceType: [

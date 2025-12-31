@@ -23,7 +23,7 @@ export default function NewBlogPostPage() {
     content_en: '',
     featured_image_url: '',
     category_id: '',
-    author_name: 'חנית קורן',
+    author_name: 'חניט קורן',
     published: false,
     published_at: '',
     meta_title_he: '',

@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-3xl md:text-4xl font-heading font-black mb-4 text-white">
-              חנית קורן
+              חניט קורן
             </h3>
             <p className="text-white font-body mb-4 font-bold text-lg">
               יועצת קריירה
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/30 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/90 text-sm font-body font-medium">
-              © {currentYear} חנית קורן. כל הזכויות שמורות.
+              © {currentYear} חניט קורן. כל הזכויות שמורות.
             </p>
             <div className="flex gap-6">
               {footerLinks.legal.map((link) => (

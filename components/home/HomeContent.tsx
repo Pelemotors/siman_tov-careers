@@ -27,7 +27,7 @@ export function HomeContent({ programs }: HomeContentProps) {
             <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl ring-4 ring-accent-lavender/20">
               <Image
                 src="/images/487240142_671240585860041_8030060960374462124_n.jpg"
-                alt="חנית קורן - יועצת קריירה"
+                alt="חניט קורן - יועצת קריירה"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 192px, (max-width: 1024px) 256px, 320px"
@@ -409,7 +409,7 @@ export function HomeContent({ programs }: HomeContentProps) {
         <div className="max-w-4xl mx-auto relative z-10">
           <Card className="p-8 bg-gradient-to-br from-white to-accent-lavender/10 border-2 border-accent-lavender/20 mb-6">
             <p className="text-xl font-body text-text-dark mb-6 leading-relaxed">
-              נעים להכיר, שמי <strong>חנית קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
+              נעים להכיר, שמי <strong>חניט קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
               אני באה מהשטח, שונאת תיאוריות מסובכות ומאמינה בתכלס.

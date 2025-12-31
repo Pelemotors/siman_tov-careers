@@ -27,7 +27,7 @@ export default function EditBlogPostPage() {
     content_en: '',
     featured_image_url: '',
     category_id: '',
-    author_name: 'חנית קורן',
+    author_name: 'חניט קורן',
     published: false,
     published_at: '',
     meta_title_he: '',
@@ -55,7 +55,7 @@ export default function EditBlogPostPage() {
             content_en: post.content_en || '',
             featured_image_url: post.featured_image_url || '',
             category_id: post.category_id || '',
-            author_name: post.author_name || 'חנית קורן',
+            author_name: post.author_name || 'חניט קורן',
             published: post.published || false,
             published_at: post.published_at 
               ? new Date(post.published_at).toISOString().slice(0, 16)

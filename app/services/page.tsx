@@ -7,13 +7,13 @@ import { SOCIAL_LINKS } from '@/lib/constants';
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://example.com';
 
 export const metadata: Metadata = {
-  title: 'שירותים - חנית קורן',
+  title: 'שירותים - חניט קורן',
   description: 'ייעוץ קריירה מקצועי: כתיבת קורות חיים, הכנה לראיונות, בניית פרופיל לינקדאין וחיפוש עבודה. 10+ שנים בגיוס ומשאבי אנוש.',
   openGraph: {
-    title: 'שירותים - חנית קורן',
+    title: 'שירותים - חניט קורן',
     description: 'ייעוץ קריירה מקצועי: כתיבת קורות חיים, הכנה לראיונות, בניית פרופיל לינקדאין וחיפוש עבודה',
     url: `${baseUrl}/services`,
-    siteName: 'חנית קורן',
+    siteName: 'חניט קורן',
     locale: 'he_IL',
     type: 'website',
   },

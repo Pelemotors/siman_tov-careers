@@ -6,7 +6,7 @@ import { Card } from '@/components/ui/Card';
 import { SOCIAL_LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'תוכנית מחיפוש עבודה לחוזה חתום - 6 מפגשים | חנית קורן',
+  title: 'תוכנית מחיפוש עבודה לחוזה חתום - 6 מפגשים | חניט קורן',
   description: 'ב-6 מפגשים תעברו ממצב של "שולחים ומקווים להתקבל" למצב של "יודעים בדיוק מה לעשות ומשיגים את משרת החלומות"',
 };
 
@@ -616,7 +616,7 @@ export default function SixMeetingsProgramPage() {
         <div className="max-w-4xl mx-auto relative z-10">
           <Card className="p-8 bg-gradient-to-br from-white to-accent-lavender/10 border-2 border-accent-lavender/20 mb-6">
             <p className="text-xl font-body text-text-dark mb-6 leading-relaxed">
-              נעים להכיר, שמי <strong>חנית קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
+              נעים להכיר, שמי <strong>חניט קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
               אני באה מהשטח, שונאת תיאוריות מסובכות ומאמינה בתכלס.

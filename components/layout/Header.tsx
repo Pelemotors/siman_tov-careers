@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
           {/* Logo - מינימליסטי */}
           <Link href="/" className={`flex flex-col ${isRTL ? 'items-start' : 'items-end'} hover:opacity-70 transition-all duration-300 group`}>
             <span className="text-xl md:text-2xl font-heading font-bold text-primary group-hover:text-accent-sky transition-colors">
-              חנית קורן
+              חניט קורן
             </span>
             <span className={`text-xs text-text-medium font-body hidden sm:block ${isRTL ? 'text-right' : 'text-left'} group-hover:text-accent-lavender transition-colors`}>
               יועצת קריירה

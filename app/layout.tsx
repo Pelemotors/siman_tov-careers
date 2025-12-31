@@ -48,8 +48,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "חנית קורן - יועצת קריירה",
-    template: "%s | חנית קורן",
+    default: "חניט קורן - יועצת קריירה",
+    template: "%s | חניט קורן",
   },
   description:
     "יועצת קריירה מקצועית עם 15+ שנות ניסיון בגיוס ומשאבי אנוש. ליוויתי כבר מעל 1,000 מחפשי עבודה לעבר משרת החלומות! סיוע בחיפוש עבודה, כתיבת קורות חיים, הכנה לראיונות ופיתוח קריירה.",
@@ -57,10 +57,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "he_IL",
     url: baseUrl,
-    title: "חנית קורן - יועצת קריירה",
+    title: "חניט קורן - יועצת קריירה",
     description:
       "יועצת קריירה מקצועית עם 15+ שנות ניסיון בגיוס ומשאבי אנוש. ליוויתי כבר מעל 1,000 מחפשי עבודה לעבר משרת החלומות! סיוע בחיפוש עבודה, כתיבת קורות חיים, הכנה לראיונות ופיתוח קריירה.",
-    siteName: "חנית קורן",
+    siteName: "חניט קורן",
   },
   alternates: {
     canonical: "/",
