@@ -201,19 +201,9 @@ export const QuizResult: React.FC<QuizResultProps> = ({
         )}
 
         <div className={`flex flex-col sm:flex-row gap-4 justify-center mb-6 ${isRTL ? 'sm:flex-row-reverse' : ''}`}>
-          <Button variant="primary" size="lg" asChild onClick={handleWhatsAppClick}>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto"
-            >
-              {result.ctaText.whatsapp}
-            </a>
-          </Button>
-          <Button variant="secondary" size="lg" asChild onClick={handleCallClick}>
+          <Button variant="primary" size="lg" asChild onClick={handleCallClick}>
             <a href={calendlyUrl} className="w-full sm:w-auto">
-              {result.ctaText.call}
+              צור קשר
             </a>
           </Button>
         </div>

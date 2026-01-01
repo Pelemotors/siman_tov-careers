@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'ממשק מנהל - חניט קורן',
+  title: 'ממשק מנהל - חגית סימן טוב',
   description: 'ממשק ניהול לאתר',
 };
 

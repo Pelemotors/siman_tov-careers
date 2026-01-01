@@ -2,10 +2,9 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import { SOCIAL_LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'תודה - חניט קורן',
+  title: 'תודה - חגית סימן טוב',
   description: 'קיבלתי את ההודעה שלך',
 };
 
@@ -20,15 +19,15 @@ export default function ThankYouPage() {
         <p className="text-lg md:text-xl text-text-dark font-body mb-6">
           תודה! אני חוזרת אליך עד 24 שעות עם נקודת שיפור ראשונה + המלצה למסלול המתאים (ליטוש / דף נחיתה / תוכן לאתר).
         </p>
-        <p className="text-base text-text-medium font-body mb-8">
-          אם זה דחוף, אפשר גם לשלוח עכשיו בוואטסאפ קישור לעמוד + 2 משפטים על מה שאתם מוכרים — ואענה לפי סדר פניות.
+          <p className="text-base text-text-medium font-body mb-8">
+          אחזור אליכם בהקדם עם התשובה המבוקשת.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="primary" size="lg" asChild>
-            <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">
-              דברו איתי בוואטסאפ
-            </a>
+            <Link href="/contact">
+              צור קשר
+            </Link>
           </Button>
           <Button variant="secondary" size="lg" asChild>
             <Link href="/">חזרה לעמוד הבית</Link>

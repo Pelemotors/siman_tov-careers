@@ -22,21 +22,6 @@ export function HomeContent({ programs }: HomeContentProps) {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent-pink/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 animate-pulse-slow" style={{ animationDelay: '1.5s' }}></div>
         
         <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
-          {/* תמונת שרית - עיגול גדול */}
-          <div className="flex justify-center mb-12 animate-float">
-            <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl ring-4 ring-accent-lavender/20">
-              <Image
-                src="/images/487240142_671240585860041_8030060960374462124_n.jpg"
-                alt="חניט קורן - יועצת קריירה"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 192px, (max-width: 1024px) 256px, 320px"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-transparent to-transparent"></div>
-            </div>
-          </div>
-          
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary mb-6 max-w-4xl mx-auto leading-tight tracking-tight animate-fade-in">
             אתם לא לבד בחיפוש העבודה
           </h1>
@@ -54,9 +39,9 @@ export function HomeContent({ programs }: HomeContentProps) {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 animate-scale-in" style={{ animationDelay: '0.4s' }}>
             <Button variant="primary" size="lg" asChild className="hover-lift">
-              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">
-                דברו איתי בוואטסאפ
-              </a>
+              <Link href="/contact">
+                צור קשר
+              </Link>
             </Button>
             <Button variant="secondary" size="lg" asChild className="hover-lift border-2 border-primary text-primary hover:bg-primary hover:text-white bg-white shadow-lg">
               <Link href="/assessment">בדיקה מהירה בחינם (2 דקות)</Link>
@@ -409,31 +394,28 @@ export function HomeContent({ programs }: HomeContentProps) {
         <div className="max-w-4xl mx-auto relative z-10">
           <Card className="p-8 bg-gradient-to-br from-white to-accent-lavender/10 border-2 border-accent-lavender/20 mb-6">
             <p className="text-xl font-body text-text-dark mb-6 leading-relaxed">
-              נעים להכיר, שמי <strong>חניט קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
+              נעים להכיר, שמי <strong>חגית סימן טוב</strong>, יועצת קריירה מקצועית עם ניסיון עשיר בגיוס, משאבי אנוש וייעוץ קריירה.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני באה מהשטח, שונאת תיאוריות מסובכות ומאמינה בתכלס.
+              אני מאמינה בגישה פרקטית ומעשית, שמבוססת על ניסיון מעשי ועבודה מול מגייסים ומחפשי עבודה מכל התחומים.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              עבדתי מול כל מערכות הגיוס, ראיתי אלפי קורות חיים, ניהלתי מאות תהליכי גיוס.
+              יש לי הבנה מעמיקה של שוק העבודה, של תהליכי הגיוס ושל מה שצריך כדי להצליח בחיפוש עבודה. אני מביאה עמי כלים מקצועיים וטכניקות מוכחות שעובדות.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              ואני יודעת בדיוק מה עובד ומה לא, מה יעביר אתכם לשלב הבא ומה ירחיק אתכם מהמשרה שאתם באמת רוצים.
-            </p>
-            <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני מאמינה בגישה פרקטית, אספר לך את כל האמת ואתן לך כלים להתמודד ולהשתפר בתהליך חיפוש העבודה.
+              הגישה שלי היא פרקטית וממוקדת תוצאות - אני רואה את הצרכים האישיים של כל אחד, מתאימה את השירות בהתאם, ונותנת כלים אמיתיים שיעזרו לכם להשיג את המשרה שאתם רוצים.
             </p>
           </Card>
           
           <Card className="p-8 bg-gradient-to-br from-white to-accent-sky/10 border-2 border-accent-sky/20">
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני מלווה אנשים באופן אישי, חוקרת לעומק מה מתאים לכל אחד ועושה התאמה מדויקת, גם בתהליכי ליווי קבוצתיים.
+              אני מלווה אנשים בתהליך חיפוש העבודה בצורה אישית ומותאמת. כל תהליך מותאם לצרכים הייחודיים של כל אחד, בין אם זה בליווי אישי ובין אם בליווי קבוצתי.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני לא מוכרת &quot;פתרון אחד לכולם&quot;, אלא מקשיבה, מתאימה את התוכנית לצרכים של כלל המשתתפים, ומלווה אתכם גם בין הפגישות.
+              אני מאמינה שכל אחד שונה וצריך גישה שונה. אני לא מוכרת פתרונות כלליים, אלא מקשיבה, לומדת מה מתאים לכל אחד, ומלווה אתכם בצורה מדויקת ומקצועית.
             </p>
             <p className="text-lg font-body text-text-dark font-medium leading-relaxed">
-              תקבלו ממני משרות בזמן אמת, זמינות לשאלות וההצלחה שלכם לנגד עיניי. תמיד.
+              תקבלו ממני ליווי מקצועי, כלים פרקטיים, זמינות לשאלות ותמיכה מלאה עד למציאת המשרה המתאימה לכם.
             </p>
           </Card>
         </div>

@@ -76,7 +76,7 @@ export default function BlogPostPage({
               </p>
             )}
             <div className="flex items-center gap-4 text-text-dark/60 font-body text-sm">
-              <span>מאת חניט קורן</span>
+              <span>מאת חגית סימן טוב</span>
               {post.published_at && (
                 <>
                   <span>•</span>

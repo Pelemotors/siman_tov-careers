@@ -14,7 +14,7 @@ interface SettingsFormProps {
 export function SettingsForm({ initialSettings }: SettingsFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [settings, setSettings] = useState({
-    business_name: initialSettings.business_name || 'חניט קורן',
+    business_name: initialSettings.business_name || 'חגית סימן טוב',
     business_phone: initialSettings.business_phone || '',
     business_email: initialSettings.business_email || '',
     whatsapp_number: initialSettings.whatsapp_number || '',

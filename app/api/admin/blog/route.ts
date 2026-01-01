@@ -106,7 +106,7 @@ export async function POST(request: NextRequest) {
       content_en: body.content_en || null,
       featured_image_url: body.featured_image_url || null,
       category_id: body.category_id || null,
-      author_name: body.author_name || 'חניט קורן',
+      author_name: body.author_name || 'חגית סימן טוב',
       published: body.published || false,
       published_at: body.published && body.published_at ? body.published_at : null,
       meta_title_he: body.meta_title_he || null,

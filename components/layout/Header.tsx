@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
           {/* Logo - מינימליסטי */}
           <Link href="/" className={`flex flex-col ${isRTL ? 'items-start' : 'items-end'} hover:opacity-70 transition-all duration-300 group`}>
             <span className="text-xl md:text-2xl font-heading font-bold text-primary group-hover:text-accent-sky transition-colors">
-              חניט קורן
+              חגית סימן טוב
             </span>
             <span className={`text-xs text-text-medium font-body hidden sm:block ${isRTL ? 'text-right' : 'text-left'} group-hover:text-accent-lavender transition-colors`}>
               יועצת קריירה
@@ -52,7 +52,7 @@ export const Header: React.FC = () => {
               <Link href="/assessment">בדיקה מהירה בחינם</Link>
             </Button>
             <Button variant="primary" size="sm" asChild className="hover-lift bg-gradient-to-r from-primary to-accent-sky">
-              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">לשיחה בוואטסאפ</a>
+              <Link href="/contact">צור קשר</Link>
             </Button>
           </nav>
 

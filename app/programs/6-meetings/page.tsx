@@ -3,10 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import { SOCIAL_LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'תוכנית מחיפוש עבודה לחוזה חתום - 6 מפגשים | חניט קורן',
+  title: 'תוכנית מחיפוש עבודה לחוזה חתום - 6 מפגשים | חגית סימן טוב',
   description: 'ב-6 מפגשים תעברו ממצב של "שולחים ומקווים להתקבל" למצב של "יודעים בדיוק מה לעשות ומשיגים את משרת החלומות"',
 };
 
@@ -33,9 +32,9 @@ export default function SixMeetingsProgramPage() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 animate-scale-in" style={{ animationDelay: '0.4s' }}>
             <Button variant="primary" size="lg" asChild className="hover-lift">
-              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">
-                להרשמה - דברו איתי בוואטסאפ
-              </a>
+              <Link href="/contact">
+                צור קשר - להרשמה
+              </Link>
             </Button>
             <Button variant="secondary" size="lg" asChild className="hover-lift border-2 border-primary text-primary hover:bg-primary hover:text-white bg-white shadow-lg">
               <Link href="/contact">השאירו פרטים ואחזור אליכם</Link>
@@ -616,31 +615,28 @@ export default function SixMeetingsProgramPage() {
         <div className="max-w-4xl mx-auto relative z-10">
           <Card className="p-8 bg-gradient-to-br from-white to-accent-lavender/10 border-2 border-accent-lavender/20 mb-6">
             <p className="text-xl font-body text-text-dark mb-6 leading-relaxed">
-              נעים להכיר, שמי <strong>חניט קורן</strong>, בעלת <strong>15 שנות ניסיון</strong> בגיוס, משאבי אנוש וייעוץ קריירה.
+              נעים להכיר, שמי <strong>חגית סימן טוב</strong>, יועצת קריירה מקצועית עם ניסיון עשיר בגיוס, משאבי אנוש וייעוץ קריירה.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני באה מהשטח, שונאת תיאוריות מסובכות ומאמינה בתכלס.
+              אני מאמינה בגישה פרקטית ומעשית, שמבוססת על ניסיון מעשי ועבודה מול מגייסים ומחפשי עבודה מכל התחומים.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              עבדתי מול כל מערכות הגיוס, ראיתי אלפי קורות חיים, ניהלתי מאות תהליכי גיוס.
+              יש לי הבנה מעמיקה של שוק העבודה, של תהליכי הגיוס ושל מה שצריך כדי להצליח בחיפוש עבודה. אני מביאה עמי כלים מקצועיים וטכניקות מוכחות שעובדות.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              ואני יודעת בדיוק מה עובד ומה לא, מה יעביר אתכם לשלב הבא ומה ירחיק אתכם מהמשרה שאתם באמת רוצים.
-            </p>
-            <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני מאמינה בגישה פרקטית, אספר לך את כל האמת ואתן לך כלים להתמודד ולהשתפר בתהליך חיפוש העבודה.
+              הגישה שלי היא פרקטית וממוקדת תוצאות - אני רואה את הצרכים האישיים של כל אחד, מתאימה את השירות בהתאם, ונותנת כלים אמיתיים שיעזרו לכם להשיג את המשרה שאתם רוצים.
             </p>
           </Card>
           
           <Card className="p-8 bg-gradient-to-br from-white to-accent-sky/10 border-2 border-accent-sky/20">
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני מלווה אנשים באופן אישי, חוקרת לעומק מה מתאים לכל אחד ועושה התאמה מדויקת, גם בתהליכי ליווי קבוצתיים.
+              אני מלווה אנשים בתהליך חיפוש העבודה בצורה אישית ומותאמת. כל תהליך מותאם לצרכים הייחודיים של כל אחד, בין אם זה בליווי אישי ובין אם בליווי קבוצתי.
             </p>
             <p className="text-lg font-body text-text-dark mb-4 leading-relaxed">
-              אני לא מוכרת &quot;פתרון אחד לכולם&quot;, אלא מקשיבה, מתאימה את התוכנית לצרכים של כלל המשתתפים, ומלווה אתכם גם בין הפגישות.
+              אני מאמינה שכל אחד שונה וצריך גישה שונה. אני לא מוכרת פתרונות כלליים, אלא מקשיבה, לומדת מה מתאים לכל אחד, ומלווה אתכם בצורה מדויקת ומקצועית.
             </p>
             <p className="text-lg font-body text-text-dark font-medium leading-relaxed">
-              תקבלו ממני משרות בזמן אמת, זמינות לשאלות וההצלחה שלכם לנגד עיניי. תמיד.
+              תקבלו ממני ליווי מקצועי, כלים פרקטיים, זמינות לשאלות ותמיכה מלאה עד למציאת המשרה המתאימה לכם.
             </p>
           </Card>
         </div>
@@ -679,9 +675,9 @@ export default function SixMeetingsProgramPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="primary" size="lg" asChild className="hover-lift">
-                <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">
-                  להרשמה - דברו איתי בוואטסאפ
-                </a>
+                <Link href="/contact">
+                  צור קשר - להרשמה
+                </Link>
               </Button>
               <Button variant="secondary" size="lg" asChild className="hover-lift border-2 border-primary text-primary hover:bg-primary hover:text-white bg-white shadow-lg">
                 <Link href="/contact">השאירו פרטים ואחזור אליכם</Link>

@@ -2,18 +2,17 @@ import { Metadata } from 'next';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
-import { SOCIAL_LINKS } from '@/lib/constants';
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://example.com';
 
 export const metadata: Metadata = {
-  title: 'שירותים - חניט קורן',
+  title: 'שירותים - חגית סימן טוב',
   description: 'ייעוץ קריירה מקצועי: כתיבת קורות חיים, הכנה לראיונות, בניית פרופיל לינקדאין וחיפוש עבודה. 10+ שנים בגיוס ומשאבי אנוש.',
   openGraph: {
-    title: 'שירותים - חניט קורן',
+    title: 'שירותים - חגית סימן טוב',
     description: 'ייעוץ קריירה מקצועי: כתיבת קורות חיים, הכנה לראיונות, בניית פרופיל לינקדאין וחיפוש עבודה',
     url: `${baseUrl}/services`,
-    siteName: 'חניט קורן',
+    siteName: 'חגית סימן טוב',
     locale: 'he_IL',
     type: 'website',
   },
@@ -174,13 +173,13 @@ export default function ServicesPage() {
 
         <div className="text-center">
           <p className="text-lg font-body text-text-medium mb-6">
-            לא בטוחים מה מתאים לכם? דברו איתי בוואטסאפ או השאירו פרטים ואחזור אליכם בהקדם.
+            לא בטוחים מה מתאים לכם? השאירו פרטים ואחזור אליכם בהקדם.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="primary" size="lg" asChild>
-              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">
-                לשליחה בוואטסאפ
-              </a>
+              <Link href="/contact">
+                צור קשר
+              </Link>
             </Button>
             <Button variant="secondary" size="lg" asChild>
               <Link href="/assessment">בדיקה מהירה (2 דקות)</Link>

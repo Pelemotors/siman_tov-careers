@@ -4,7 +4,6 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { StickyWhatsAppButton } from './StickyWhatsAppButton';
 import { StickyCTAButton } from './StickyCTAButton';
 import { LanguageProvider } from '@/lib/i18n/LanguageContext';
 
@@ -24,7 +23,6 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         {!isAdminRoute && <Footer />}
         {!isAdminRoute && (
           <>
-            <StickyWhatsAppButton />
             <StickyCTAButton />
           </>
         )}
